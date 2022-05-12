@@ -1,7 +1,6 @@
 # project-rockymaster
 
 ## Project Summary
----
 
 ### Project Context
 

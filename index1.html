@@ -13,6 +13,11 @@
   <!-- Own CSS -->
   <link rel="stylesheet" href="style1.css">
 
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <title>Welcome to RockyMaster!</title>
 </head>
 
@@ -47,6 +52,117 @@
       </div>
     </div>
   </nav>
+
+  <!-- form -->
+  <div class="container p-5">
+    <h2>ENQUIRIES</h2>
+    <div class="input-group mb-3">
+      <label class="input-group-text" for="inputGroupSelect01"><i class="fa-solid fa-tags"></i></label>
+      <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">Feedback</option>
+        <option value="2">Marketing</option>
+        <option value="3">Human Resource</option>
+        <option value="3">Other Enquiries</option>
+      </select>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="username"><i class="fa-solid fa-user"></i></span>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="username"><i class="fa-solid fa-envelope"></i></span>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+      <span class="input-group-text">@</span>
+      <input type="text" class="form-control" placeholder="example.com" aria-label="Server">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="phone"><i class="fa-solid fa-phone"></i></span>
+      <input type="text" class="form-control" placeholder="Phone Number" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-text"><i class="fa-solid fa-comment"></i></span>
+      <textarea class="form-control" aria-label="With textarea" placeholder="Please leave your comments.."></textarea>
+    </div><br><br>
+
+    <div class="row">
+      <div class="col-1">
+        <input class="mt-1" type="checkbox" name="consent" id="pdpa" value="pdpa">
+      </div>
+      <div class="col-11">
+          <label>I acknowledge that I have read and understood the Data Protection Notice, and consent to the
+            collection, use and disclosure of my personal data by [ THE COFFEE CONNECTION PTE LTD ] for the purposes set out
+            in the Notice. <a href="https://www.rockymaster.com.sg/data-protection-notice">Data Protection Notice</a></label><br><br>
+      </div>
+    </div>
+  
+    <h5>Please-tick the relevant boxes below if you agree to receive the following marketing materials:</h5>
+    
+    <div class="row">
+      <div class="col-1">
+        <input class="mt-1" type="checkbox" name="consent" id="marketing" value="marketing">
+      </div>
+      <div class="col-11">
+        <label for="consent">I do not wish to receive any marketing information.</label><br><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <input class="mt-1" type="checkbox" name="consent" id="channel" value="channel">
+      </div>
+      <div class="col-11">
+          <label>I would like to receive information about the goods and services which may be provided by The Coffee Connection Pte Ltd, including (but not limited to) offers, promotions and information about new goods and services, via the following channels:</label><br><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <input class="mt-1" type="checkbox" name="consent" id="newsletter" value="newsletter">
+      </div>
+      <div class="col-11">
+        <label for="consent">Newsletter</label><br><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <input class="mt-1" type="checkbox" name="consent" id="email" value="email">
+      </div>
+      <div class="col-11">
+        <label for="consent">Email</label><br><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <input class="mt-1" type="checkbox" name="consent" id="text-message" value="text-message">
+      </div>
+      <div class="col-11">
+        <label for="consent">Text Message</label><br><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <input class="mt-1" type="checkbox" name="consent" id="telephone-call" value="telephone-call">
+      </div>
+      <div class="col-11">
+        <label for="consent">Telephone Call</label><br><br>
+      </div>
+    </div>
+
+    <!-- button -->
+    <div class="d-grid gap-2">
+      <button class="btn btn-success" type="button">Submit</button>
+    </div>
+  </div>
 
   <!-- Carousel -->
   <div class="container">
@@ -125,13 +241,16 @@
   <div class="container">
     <div class="row p-5">
       <div class="col-sm-12 col-md-8 col-lg-9 d-none d-sm-none d-md-none d-lg-block">
-        <iframe src="https://www.google.com/maps/d/embed?mid=17covqA6-UbJ81UdSyX8wHBoMntjbhSh8&ehbc=2E312F" width="840" height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=17covqA6-UbJ81UdSyX8wHBoMntjbhSh8&ehbc=2E312F" width="840"
+          height="480"></iframe>
       </div>
       <div class="col-sm-12 col-md-8 col-lg-9 d-none d-sm-none d-md-block d-lg-none ">
-        <iframe src="https://www.google.com/maps/d/embed?mid=17covqA6-UbJ81UdSyX8wHBoMntjbhSh8&ehbc=2E312F" width="440" height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=17covqA6-UbJ81UdSyX8wHBoMntjbhSh8&ehbc=2E312F" width="440"
+          height="480"></iframe>
       </div>
       <div class="col-sm-12 col-md-8 col-lg-9 d-sm-block d-md-none d-lg-none ">
-        <iframe src="https://www.google.com/maps/d/embed?mid=17covqA6-UbJ81UdSyX8wHBoMntjbhSh8&ehbc=2E312F" width="440" height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=17covqA6-UbJ81UdSyX8wHBoMntjbhSh8&ehbc=2E312F" width="440"
+          height="480"></iframe>
       </div>
       <div class="col-sm-12 col-md-4 col-lg-3 ">
         Rocky Master @ Woods Square <br>
@@ -148,6 +267,41 @@
         Rocky Master @ White Sands <br>
       </div>
     </div>
+  </div>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">@</span>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+      aria-describedby="basic-addon1">
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+      aria-describedby="basic-addon2">
+    <span class="input-group-text" id="basic-addon2">@example.com</span>
+  </div>
+
+  <label for="basic-url" class="form-label">Your vanity URL</label>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+  </div>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text">$</span>
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+    <span class="input-group-text">.00</span>
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+    <span class="input-group-text">@</span>
+    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-text">With textarea</span>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
   </div>
   <!-- Optional JavaScript; choose one of the two! -->
 
